@@ -1,0 +1,311 @@
+:root {
+  --body-bg-color: #e1eaed;
+  --text-color: #032c03;
+  --bg-cards: #13b9ab;
+  --bg-techs: #b0b0bb;
+}
+@import url("https://fonts.googleapis.com/css2? family= Alexandria:wght@500 & family= Cabin:wght@500 & family= Merriweather+Sans:wght@400;700 & family= Roboto:ital,wght@0,500;1,500 & family= Rubik+Glitch & family= Urbanist:wght@500;700;800 & display=swap");
+
+body {
+  background-color: var(--bg-techs);
+  margin-left: 0%;
+  margin-top: 0%;
+}
+
+.main {
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.profile {
+  position: absolute;
+  width: 348px;
+  height: 292px;
+  left: 40px;
+  top: 40px;
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.profile img {
+  box-sizing: border-box;
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  left: 110px;
+  top: 32px;
+  border: 2px solid #727772;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.profile h2 {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 29px;
+  left: 50px;
+  bottom: 77px;
+  position: absolute;
+  color: var(--text-color);
+}
+.profile p {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  left: 128px;
+  bottom: 59px;
+  position: absolute;
+  color: var(--text-color);
+}
+
+.links {
+  position: absolute;
+  width: 348px;
+  height: 348px;
+  left: 40px;
+  top: 362px;
+
+  background: #13b9ab;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.links img {
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.links p {
+  font-family: "Merriweather Sans";
+  display: inline;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: justify;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+.tecnologias {
+  position: absolute;
+  width: 348px;
+  height: 208px;
+  left: 40px;
+  top: 740px;
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.tecnologias h3 {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  left: 20px;
+  top: 20px;
+  position: absolute;
+  color: var(--text-color);
+}
+.tecnologias p {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+.tec1 {
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 30px;
+  top: 76px;
+  background-color: var(--bg-techs);
+  border-radius: 30px;
+  box-shadow: 2px 2px 2px 1px rgba(11, 11, 11, 0.2);
+}
+.tec2 {
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 131px;
+  top: 76px;
+  background-color: var(--bg-techs);
+  border-radius: 30px;
+  box-shadow: 2px 2px 2px 1px rgba(11, 11, 11, 0.2);
+}
+.tec3 {
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 232px;
+  top: 76px;
+  background-color: var(--bg-techs);
+  border-radius: 30px;
+  box-shadow: 2px 2px 2px 1px rgba(11, 11, 11, 0.2);
+}
+.tec4 {
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 30px;
+  top: 115px;
+  background-color: var(--bg-techs);
+  border-radius: 30px;
+  box-shadow: 2px 2px 2px 1px rgba(11, 11, 11, 0.2);
+}
+.tec5 {
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 131px;
+  top: 115px;
+  background-color: var(--bg-techs);
+  border-radius: 30px;
+  box-shadow: 2px 2px 2px 1px rgba(11, 11, 11, 0.2);
+}
+.tec6 {
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 232px;
+  top: 115px;
+  background-color: var(--bg-techs);
+  border-radius: 30px;
+  box-shadow: 2px 2px 2px 1px rgba(11, 11, 11, 0.2);
+}
+.tec7 {
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 30px;
+  top: 154px;
+  background-color: var(--bg-techs);
+  border-radius: 30px;
+  box-shadow: 2px 2px 2px 1px rgba(11, 11, 11, 0.2);
+}
+.tec8 {
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 131px;
+  top: 154px;
+  background-color: var(--bg-techs);
+  border-radius: 30px;
+  box-shadow: 2px 2px 2px 1px rgba(11, 11, 11, 0.2);
+}
+.tec9 {
+  position: absolute;
+  width: 86px;
+  height: 24px;
+  left: 232px;
+  top: 154px;
+  background-color: var(--bg-techs);
+  border-radius: 30px;
+  box-shadow: 2px 2px 2px 1px rgba(11, 11, 11, 0.2);
+}
+
+.experiencias {
+  position: absolute;
+  width: 348px;
+  height: 349px;
+  left: 40px;
+  top: 978px;
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.experiencias h3 {
+  font-family: "Merriweather Sans";
+  font-style: normal;
+  font-weight: 400;
+  position: absolute;
+  left: 70px;
+  bottom: 2px;
+ 
+}
+.experiencias p {
+    font-family: 'Merriweather Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 15px;
+position: absolute;
+left: 40px;
+top: 1357px;
+}
+.educação {
+  position: absolute;
+  width: 348px;
+  height: 352px;
+  left: 40px;
+  top: 1357px;
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.meusProjetos {
+  position: absolute;
+  width: 952px;
+  height: 86px;
+  left: 448px;
+  top: 40px;
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.projeto1 {
+  position: absolute;
+  width: 461px;
+  height: 186px;
+  left: 449px;
+  top: 157px;
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.projeto2 {
+  position: absolute;
+  width: 461px;
+  height: 186px;
+  left: 940px;
+  top: 157px;
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.recentes {
+  position: absolute;
+  width: 952px;
+  height: 86px;
+  left: 449px;
+  top: 373px;
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.post {
+  position: absolute;
+  width: 952px;
+  height: 201px;
+  left: 449px;
+  top: 500px;
+  background: var(--bg-cards);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.post img {
+  box-sizing: border-box;
+  position: absolute;
+  width: 128px;
+  height: 128px;
+  left: 30px;
+  top: 31px;
+  border: 2px solid #727772;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
